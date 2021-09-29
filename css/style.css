@@ -66,3 +66,12 @@ body {
   margin-left: auto;
   padding-right: 20px;
 }
+
+.hero {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 405px 0;
+}
