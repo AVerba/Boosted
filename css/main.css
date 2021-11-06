@@ -1,58 +1,111 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+a,
+address {
+  text-decoration: none;
+  display: block;
+}
+
 :root {
   --wht-font-color: #fbfbfb;
-
   --blck-bg-color: #000;
 }
+
 body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
 }
+
 ._img {
   display: block;
   min-width: 100%;
   height: auto;
 }
+
 ._d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 ._container {
   padding: 0 20px;
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
 }
+
 .header__banner {
   font-size: 12px;
   line-height: calc(15 / 12);
   text-align: center;
   letter-spacing: 2px;
   background-color: var(--blck-bg-color);
-
   padding: 7px 0;
 }
+
 .header__banner a {
   color: var(--wht-font-color);
 }
+
 .header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .header__logo {
   margin-right: 125px;
 }
+
 .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .menu__item:not(:first-child) {
   margin-left: 22px;
 }
+
 .menu__link {
   font-size: 14px;
   line-height: calc(21 / 14);
@@ -60,9 +113,14 @@ body {
   text-transform: uppercase;
   color: #000000;
 }
+
 .user-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: auto;
   padding-right: 20px;
 }
@@ -75,3 +133,4 @@ body {
   margin: 0 auto;
   padding: 405px 0;
 }
+/*# sourceMappingURL=main.css.map */
