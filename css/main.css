@@ -28,6 +28,16 @@ address {
   display: block;
 }
 
+._container {
+  padding: 0 20px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 :root {
   --wht-font-color: #fbfbfb;
   --blck-bg-color: #000;
@@ -55,16 +65,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-._container {
-  padding: 0 20px;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 10px;
 }
 
 .header__banner {
