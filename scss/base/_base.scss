@@ -6,3 +6,18 @@
     margin: 0 auto;
     padding: 0 10px;
   }
+  body {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+  }
+  ._img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+  }
+  ._d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
